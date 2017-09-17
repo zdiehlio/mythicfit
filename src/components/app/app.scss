@@ -1,0 +1,29 @@
+@import "vars";
+
+.mythic-logo {
+  width: 100%;
+  float: left;
+  margin-top: 0px;
+}
+
+.main-page {
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+.nav-bar {
+  margin-bottom: 5em;
+  a {
+    background-color: black;
+    padding: 1em;
+    float: left;
+    width: calc(100% / 4);
+    color: $color-white;
+  }
+}
+
+.main-content {
+  p {
+  margin-top: 3em;
+  }
+}
