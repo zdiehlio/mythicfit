@@ -1,6 +1,5 @@
-import './style/main.scss'
+import './style/main.css'
 import React from 'react'
-import ReactDom from 'react-dom'
 
 import App from './components/app'
 
@@ -12,4 +11,4 @@ let AppContainer = () => {
   )
 }
 
-export default App
+export default AppContainer

@@ -1,7 +1,5 @@
 @import "vars";
 
-
-// content
 html, body { position: relative; }
 head, script, link  { display: none; }
 p { display: inline-block; }
@@ -19,14 +17,6 @@ blockquote {
   padding-left: $pad;
 }
 
-@for $i from 6 through 1 {
-  h#{$i} {
-    font-size: 9/($i + 2) * 1em;;
-  }
-}
-
-
-// form
 label {
   font-size: 1.25em;
   font-weight: bolder;
