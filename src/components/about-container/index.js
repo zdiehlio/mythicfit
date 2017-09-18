@@ -1,6 +1,6 @@
 import React from 'react'
 
-import './about.scss'
+import './about.css'
 
 class AboutContainer extends React.Component {
   render() {

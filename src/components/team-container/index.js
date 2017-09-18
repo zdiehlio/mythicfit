@@ -1,6 +1,6 @@
 import React from 'react'
 
-import './team.scss'
+import './team.css'
 
 class TeamContainer extends React.Component {
   render() {

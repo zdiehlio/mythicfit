@@ -1,16 +1,17 @@
-@import "vars";
+@import './src/style/_vars.scss';
 
 .landing{
   color: black;
   div {
     float:left;
+    background-color: black;
     margin-top: 3em;
     margin-left: 1em;
     height: 20em;
     width: calc(95%/3);
   }
   a {
-    color: $color-white;
+    background-color: black;
   }
   img {
     height: 20em;

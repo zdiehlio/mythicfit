@@ -9,7 +9,7 @@ import Company from '../company-container'
 import Esports from '../esports-container'
 import Landing from '../landing'
 import logo from '../../mythic-logo.jpg'
-import './app.scss'
+import './app.css'
 
 class App extends Component {
   render() {
