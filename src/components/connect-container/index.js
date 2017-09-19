@@ -8,7 +8,7 @@ class ConnectContainer extends React.Component {
   render() {
     return(
       <div>
-        <p>We hate forms, we don't want to read them and you certainly don't want to fill them out.  Instead, if you have questions or just want to chat join us on <br></br>
+        <p>We hate forms, we don't want to read them and you certainly don't want to fill them out.  Instead, if you have questions or just want to chat join us on the Social Medias! <br></br>
           <a className='icon' href='https://discord.gg/GkHbRjv'>
             <img src={Discord} />
           </a>

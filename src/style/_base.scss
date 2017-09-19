@@ -53,10 +53,10 @@ button,input[type="submit"] {
   }
 }
 
-@for $i from 1 through 6 {
-    h#{7 - $i} {
-        fontsize: $i * 1.4em;
-    }
+@for $i from 6 through 1 {
+  h#{$i} {
+    font-size: 9/($i + 2) * 1em;;
+  }
 }
 
 // lists
