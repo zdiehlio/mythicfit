@@ -8,7 +8,7 @@ class IndividualContainer extends React.Component {
   render() {
     return(
       <div>
-        <p>We are still working on developing epic programs for you, in the meantime connect with us the the Social Medias! <br></br>
+        <p>We are still working on developing epic programs for you, in the meantime connect with us on the Social Medias! <br></br>
           <a className='icon' href='https://discord.gg/GkHbRjv'>
             <img src={Discord} />
           </a>
