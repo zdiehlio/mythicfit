@@ -13,16 +13,16 @@ class Landing extends React.Component {
             <p>Individual</p>
           </Link>
         </div>
-        <div>
+        {/*<div>
           <Link to='/company'>
             <img src='https://imgur.com/nCEAFrl.jpg' />
             <p>Company</p>
           </Link>
-        </div>
+        </div>*/}
         <div>
           <Link to='/esports'>
             <img src='https://i.imgur.com/JBSAi3R.jpg' />
-            <p>Esports</p>
+            <p>Teams</p>
           </Link>
         </div>
       </div>
