@@ -53,6 +53,12 @@ button,input[type="submit"] {
   }
 }
 
+@for $i from 6 through 1 {
+  h#{$i} {
+    font-size: 9/($i + 2) * 1em;;
+  }
+}
+
 // lists
 ul,ol,li { margin-left: $pad * 2; }
 li { display: list-item; }
@@ -60,3 +66,13 @@ ul li { list-style: disc; }
 ol li { list-style: decimal; }
 ol ol li , ul ol li { list-style: lower-alpha; }
 ol ul li , ul ul li { list-style: square; }
+
+.icon {
+  width: 5em;
+  margin-top: 5em;
+  display: inline-block;
+  margin-left: 2em;
+  img {
+    text-align: center;
+  }
+}

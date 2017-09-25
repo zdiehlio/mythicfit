@@ -8,7 +8,7 @@ import Individual from '../individual-container'
 import Company from '../company-container'
 import Esports from '../esports-container'
 import Landing from '../landing'
-import logo from '../../mythic-logo.jpg'
+import logo from '../../assets/mythic-logo.jpg'
 import './app.css'
 
 class App extends Component {
