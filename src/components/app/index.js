@@ -33,7 +33,6 @@ class App extends Component {
               <Route exact path='/company' component={Company} />
               <Route exact path='/esports' component={Esports} />
             </div>
-            <div className='footer'></div>
           </div>
         </BrowserRouter>
       </div>

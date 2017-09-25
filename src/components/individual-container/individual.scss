@@ -1,0 +1,26 @@
+@import './src/style/_vars.scss';
+
+.archetypes {
+  div {
+    float:left;
+    margin-left: 2em;
+    width: calc(90%/3);
+    text-align: center;
+  }
+  p {
+    text-align: left;
+    float: left;
+    margin-left: 2em;
+  }
+  img {
+    float: left;
+    margin-left: 2em;
+    margin-top: 3em;
+    width: calc(90%/2);
+    border-radius: 360px;
+    height: 15em;
+  }
+  h5 {
+    margin-top: $pad;
+  }
+}

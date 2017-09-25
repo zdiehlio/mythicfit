@@ -1,19 +1,25 @@
 @import './src/style/_vars.scss';
 
 .landing{
-  color: black;
+  color: $color-white;
   div {
     float:left;
-    background-color: black;
     margin-top: 3em;
     margin-left: 1em;
     height: 20em;
-    width: calc(95%/3);
+    width: calc(95%/2);
+  }
+  p {
+    color: $color-white
   }
   a {
-    color: black;
+    width: calc(100%/2);
+    margin: auto;
   }
   img {
     height: 20em;
+    width: 100%;
+    margin: auto;
+    border-radius: 50px;
   }
 }
