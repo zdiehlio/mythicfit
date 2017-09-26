@@ -1,6 +1,10 @@
 @import './src/style/_vars.scss';
 
 .team {
+  h5 {
+    text-align: center;
+    padding: $pad;
+  }
   div {
     width: calc(90%/2);
   }
