@@ -1,18 +1,32 @@
 import React from 'react'
-import FB from '../../assets/facebook.jpg'
-import Discord from '../../assets/discord.jpg'
-import Twitter from '../../assets/twitter.jpg'
-import Instagram from '../../assets/instagram.jpg'
+import {Link} from 'react-router-dom'
 import Warrior from '../../assets/warrior.png'
 import Rogue from '../../assets/rogue.png'
 import Mage from '../../assets/mage.png'
+import Modal from 'react-modal'
 
 import './individual.css'
 
 class IndividualContainer extends React.Component {
+  constructor(){
+    super()
+    this.state = {
+      modalIsOpen: true,
+    }
+    this.closeModal = this.closeModal.bind(this)
+  }
+
+  closeModal() {
+    this.setState({modalIsOpen: false})
+  }
   render() {
     return(
-      <div className='archetypes'>
+      <Modal
+        isOpen= {this.state.modalIsOpen}
+        contentLabel='Modal'
+        className='archetypes'
+        onRequestClose={this.closeModal} >
+        <Link to = '/' ><button onClick = {this.closeModal}>Get Me Out of Here!</button></Link>
         <div>
           <img src={Warrior} />
           <p><h3>Warrior</h3> Bastions of strength and fortitude, the warrior values determination and skill in combat above all else.  They are protectors, champions, and leaders in conflicts and adventrues alike.  As a warrior, you are tasked with defending your team, leading them into the fray, and carrying them when they fall.
@@ -40,7 +54,7 @@ class IndividualContainer extends React.Component {
             <br /> Perception
           </p>
         </div>
-      </div>
+      </Modal>
     )
   }
 }

@@ -2,7 +2,7 @@ import React from 'react'
 import FB from '../../assets/facebook.jpg'
 import Discord from '../../assets/discord.jpg'
 import Twitter from '../../assets/twitter.jpg'
-import Instagram from '../../assets/instagram.jpg'
+import Instagram from '../../assets/instagram.png'
 
 class ConnectContainer extends React.Component {
   render() {

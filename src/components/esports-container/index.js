@@ -2,7 +2,7 @@ import React from 'react'
 import FB from '../../assets/facebook.jpg'
 import Discord from '../../assets/discord.jpg'
 import Twitter from '../../assets/twitter.jpg'
-import Instagram from '../../assets/instagram.jpg'
+import Instagram from '../../assets/instagram.png'
 
 import './esports.css'
 
@@ -10,7 +10,7 @@ class EsportsContainer extends React.Component {
   render() {
     return(
       <div className='esports'>
-        <p>We are still working on developing epic programs for you, in the meantime connect with us on the Social Medias! <br></br>
+        <p>We are still working on developing epic programs for your esports team, in the meantime connect with us on the Social Medias! <br></br>
           <a className='icon' href='https://discord.gg/GkHbRjv'>
             <img src={Discord} />
           </a>

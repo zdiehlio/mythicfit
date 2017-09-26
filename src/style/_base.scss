@@ -42,6 +42,9 @@ button,input[type="submit"] {
   background: $color-lightgrey;
   color: $color-primary;
   padding: $pad;
+  margin-top: 1em;
+  width: 20%;
+  margin: auto;
   border: none;
 
   &:hover {

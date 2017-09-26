@@ -1,5 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Esports from '../../assets/esports.png'
+import Solo from '../../assets/solo.png'
+import Creative from '../../assets/creative.png'
 
 import './landing.css'
 
@@ -9,20 +12,20 @@ class Landing extends React.Component {
       <div className='landing'>
         <div>
           <Link to='/individual'>
-            <img src='https://i.imgur.com/nORPe0F.jpg' />
-            <p>Individual</p>
+            <img src={Solo} />
+            <p>Solo Queue</p>
           </Link>
         </div>
-        {/*<div>
+        <div>
           <Link to='/company'>
-            <img src='https://imgur.com/nCEAFrl.jpg' />
-            <p>Company</p>
+            <img id='creative' src={Creative} />
+            <p>Creative Teams</p>
           </Link>
-        </div>*/}
+        </div>
         <div>
           <Link to='/esports'>
-            <img src='https://i.imgur.com/JBSAi3R.jpg' />
-            <p>Teams</p>
+            <img src={Esports} />
+            <p>Esports Teams</p>
           </Link>
         </div>
       </div>
