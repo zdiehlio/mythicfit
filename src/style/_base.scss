@@ -2,7 +2,7 @@
 
 html, body { position: relative; }
 head, script, link  { display: none; }
-p { display: inline-block; }
+p { display: inline-block; line-height: 1.5;}
 span,em,strong { display: inline; }
 em { font-style: italic; }
 strong { font-weight: bold; }
@@ -39,10 +39,10 @@ textarea, input {
 }
 
 button,input[type="submit"] {
-  background: $color-lightgrey;
-  color: $color-primary;
+  background: $color-black;
+  color: $color-white;
   padding: $pad;
-  margin-top: 1em;
+  margin-top: 2em;
   width: 20%;
   margin: auto;
   border: none;
@@ -69,13 +69,3 @@ ul li { list-style: disc; }
 ol li { list-style: decimal; }
 ol ol li , ul ol li { list-style: lower-alpha; }
 ol ul li , ul ul li { list-style: square; }
-
-.icon {
-  width: 5em;
-  margin-top: 5em;
-  display: inline-block;
-  margin-left: 2em;
-  img {
-    text-align: center;
-  }
-}

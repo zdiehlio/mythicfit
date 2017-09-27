@@ -1,8 +1,8 @@
 import React from 'react'
 
-import './about.css'
+import './quest.css'
 
-class AboutContainer extends React.Component {
+class Quest extends React.Component {
   render() {
     return(
       <div className='about'>
@@ -15,4 +15,4 @@ class AboutContainer extends React.Component {
   }
 }
 
-export default AboutContainer
+export default Quest
