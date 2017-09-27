@@ -26,7 +26,7 @@ class IndividualContainer extends React.Component {
         contentLabel='Modal'
         className='archetypes'
         onRequestClose={this.closeModal} >
-        <Link to = '/' ><button onClick = {this.closeModal}>Get Me Out of Here!</button></Link>
+        <Link to = '/' ><button onClick = {this.closeModal}>Take Me Back!</button></Link>
         <div>
           <img src={WarriorPic} />
           <p><h3>Warrior</h3> Bastions of strength and fortitude, the warrior values determination and skill in combat above all else.  They are protectors, champions, and leaders in conflicts and adventures alike.  As a warrior, you are tasked with defending your team, leading them into the fray, and carrying them when they fall.

@@ -26,9 +26,9 @@ class Warrior extends React.Component {
         className='final-choice'
         onRequestClose={this.closeModal} >
         <div>
-          <Link to = '/individual' ><button onClick = {this.closeModal}>Get Me Out of Here!</button></Link>
+          <Link to = '/individual' ><button onClick = {this.closeModal}>Take Me Back!</button></Link>
           <img src={WarriorPic} />
-          <p><h3>Warrior</h3> You are one step closer to embarking on a legendary journey that will be relentless, but will forge you into something greater.  Before we accept you as a trainee, we need to hear your motivation for wanting to join us.  Use #mythicfitwarrior on your favorite social media platform @mythicfit and tell us why you are ready to take on the challenge.
+          <p><h3>Warrior</h3> You are one step closer to embarking on a legendary journey that will be relentless, but will forge you into something greater.  Before we accept you as a trainee, we need to hear your motivation for wanting to join us.  Use #mythicfitwarrior on your favorite social media platform @mythicfit and tell us why you are ready to take on the challenge of becoming a Mythic Fit Warrior.
           </p>
         </div>
         <a className='social-tag' href='https://twitter.com'>
